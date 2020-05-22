@@ -1,7 +1,7 @@
 version: '3'
 services:
   server:
-    # image: kail4ek/first:v0.4
+    # image: kail4ek/greeter:v0.4
     environment:
       - PYTHONUNBUFFERED=1
     build: .
